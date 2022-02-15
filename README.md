@@ -18,17 +18,16 @@ Requirements
 
 For transductive reasoning
 
-​	cd transductive
-
-​	python -W ignore train.py --data_path=data/WN18RR
+    cd transductive
+    python -W ignore train.py --data_path=data/WN18RR
 
 
 
 For inductive reasoning
 
-​	cd inductive
+    cd inductive
+    python -W ignore train.py --data_path=data/WN18RR_v1
 
-​	python -W ignore train.py --data_path=data/WN18RR_v1
 
 
 
@@ -39,6 +38,7 @@ For inductive reasoning
 | MRR        | .992   | .964 | .533   | .374      | .543     |
 | Hit@1 (%)  | 98.8   | 94.6 | 48.5   | 28.3      | 47.6     |
 | Hit@10 (%) | 99.7   | 99.0 | 62.4   | 55.8      | 65.1     |
+
 
 ### Inductive results
 
