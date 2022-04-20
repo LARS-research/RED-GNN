@@ -1,5 +1,5 @@
 # RED-GNN
-The code for our paper ["Knowledge Graph Reasoning with Relational Digraph", which has been accepted by ](https://arxiv.org/pdf/2108.06040.pdf)WebConf 2022.
+The code for our paper ["Knowledge Graph Reasoning with Relational Digraph"](https://arxiv.org/pdf/2108.06040.pdf) which has been accepted by WebConf 2022.
 
 
 
@@ -52,3 +52,11 @@ We use the full set of negative samples in evaluating the inductive results. Thi
 
 
 
+Readers are welcomed to fork this repository to reproduce the experiments and follow our work. Please kindly cite our paper
+
+    @Inproceedings{zhang2022redgnn,
+      title={Knowledge Graph Reasoning with Relational Directed Graph},
+      author={Zhang, Yongqi and Yao, Quanming},
+      booktitle={TheWebConf},
+      year={2022}
+    }
