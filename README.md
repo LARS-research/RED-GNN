@@ -54,9 +54,10 @@ We use the full set of negative samples in evaluating the inductive results. Thi
 
 Readers are welcomed to fork this repository to reproduce the experiments and follow our work. Please kindly cite our paper
 
-    @Inproceedings{zhang2022redgnn,
-      title={Knowledge Graph Reasoning with Relational Directed Graph},
-      author={Zhang, Yongqi and Yao, Quanming},
-      booktitle={TheWebConf},
-      year={2022}
+    @inproceedings{zhang2022redgnn,
+        title={Knowledge graph reasoning with relational digraph},
+        author={Zhang, Yongqi and Yao, Quanming},
+        booktitle={Proceedings of the ACM Web Conference 2022},
+        pages={912--924},
+        year={2022}
     }
