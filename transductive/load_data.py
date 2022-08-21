@@ -156,7 +156,8 @@ class DataLoader:
         n_all = len(all_triple)
         rand_idx = np.random.permutation(n_all)
         all_triple = all_triple[rand_idx]
-        
+
+        # increase the ratio of fact_data, e.g., 3/4->4/5, can increase the performance
         self.fact_data = self.double_triple(all_triple[:n_all*3//4].tolist())
         self.train_data = np.array(self.double_triple(all_triple[n_all*3//4:].tolist()))
         self.n_train = len(self.train_data)

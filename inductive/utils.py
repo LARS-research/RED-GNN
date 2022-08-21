@@ -4,7 +4,7 @@ import subprocess
 import logging
 
 def cal_ranks(scores, labels, filters):
-    scores = scores - np.min(scores, axis=1, keepdims=True)
+    scores = scores - np.min(scores, axis=1, keepdims=True) + 1e-8
     full_rank = rankdata(-scores, method='average', axis=1)
     filter_scores = scores * filters
     filter_rank = rankdata(-filter_scores, method='min', axis=1)
