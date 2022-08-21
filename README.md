@@ -30,6 +30,12 @@ For inductive reasoning
 
 
 
+### Data splition in transductive setting
+
+We follow the rule mining methods, i.e., [Neural-LP](https://github.com/fanyangxyz/Neural-LP) and [DRUM](https://github.com/alisadeghian/DRUM), to randomly split triplets in the original `train.txt` file into two files `facts.txt` and `train.txt` with ratio 3:1. This step is to make sure that the query triplets will not be leaked in the fact triplets used in RED-GNN. Empirically, increasing the ratio of facts, e.g. from 3:1 to 4:1, will lead to better performance.
+
+
+
 
 ### Transductive results
 
