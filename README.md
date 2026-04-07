@@ -1,5 +1,7 @@
 # RED-GNN
 
+This repository contains the official implementation of our paper [Neural knowledge graph reasoning with relational digraph](https://doi.org/10.1016/j.artint.2026.104520), published in the *Artificial Intelligence Journal*.
+
 ## Instructions
 
 A quick instruction is given for readers to reproduce the whole process.
@@ -86,3 +88,24 @@ This project provides implementations for temporal knowledge graph reasoning tas
     --device 7 \
     --batch_size 2
   ```
+
+
+
+## **Citation**
+
+If you find our method useful, please cite our paper:
+
+```latex
+@article{Zhang2026REDGNN,
+  title   = {Neural knowledge graph reasoning with relational digraph},
+  author  = {Zhang, Yongqi and Qiu, Haiquan and Liu, Shuzhi and Du, Enjun and Yao, Quanming},
+  journal = {Artificial Intelligence},
+  volume  = {355},
+  pages   = {104520},
+  year    = {2026},
+  publisher = {Elsevier},
+  doi     = {10.1016/j.artint.2026.104520},
+  url     = {https://doi.org/10.1016/j.artint.2026.104520}
+}
+```
+
